@@ -5,7 +5,7 @@ delta = b ** 2 - 4
 
 if delta < 0:
     print ("Não há solução real!")
-elif delta == 0: #== serve para comparar certo valor
+elif delta == 0: 
     x = (-b + delta ** (1/2)) / 2 * a
     print (f'x = {x}')
 else:
